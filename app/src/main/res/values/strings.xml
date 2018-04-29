@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">QuestionIt</string>
+    <string name="server">http://proyectodgr.ddns.net</string>
+    <string name="title_activity_juego">Juega</string>
+    <string name="action_settings">Settings</string>
+    <string name="registro">Registro</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="completados">Completados</string>
+    <string name="perfil">Perfil</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="tags">TAGS</string>
+    <string name="pregunta">Pregunta...</string>
+    <string name="actividad">Actividad</string>
+    <string name="siguiendo">Siguiendo</string>
+    <string name="titulo">Pregunta</string>
+    <string name="anyadirImagen">Añadir imagen</string>
+    <string name="respuestas">Respuestas</string>
+    <string name="respuesta1">Respuesta 1</string>
+    <string name="respuesta2">Respuesta 2</string>
+    <string name="respuesta3">Respuesta 3</string>
+    <string name="respuesta4">Respuesta 4</string>
+    <string name="tagsMinus">Tags</string>
+    <string name="publicar">Publicar</string>
+    <string name="respCorrecta">Resp. Correcta</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="dificultad">Dificultad</string>
+    <string name="puntuacionTotal">Puntuación total</string>
+    <string name="preguntasContestadas">Preguntas contestadas</string>
+    <string name="PreguntasAcertadas">Preguntas acertadas</string>
+    <string name="tasaAcierto">Tasa de acierto</string>
+    <string name="cambiarImagen">Cambiar imagen</string>
+    <string name="cerrarSesion">Cerrar sesión</string>
+    <string name="title_activity_preguntas">Pregunta</string>
+    <string name="reportarPregunta">Reportar pregunta</string>
+    <string name="consultarPerfil">Perfil del creador</string>
+    <string name="motivos">Motivos</string>
+    <string name="mejorPuntuacion">Mejor puntuación:</string>
+    <string name="preparandoDes">PREPARANDO\nEL DESAFÍO</string>
+    <string name="dosPuntos">:</string>
+    <string name="victorias">Victorias:</string>
+    <string name="prepPartida">PREPARANDO PARTIDA</string>
+    <string name="popularidad">Popularidad</string>
+    <string name="recordDesafio">Record desafío</string>
+    <string name="verPreguntas">Ver preguntas</string>
+    <string name="nombre">Nombre...</string>
+    <string name="desafiar">Desafiar</string>
+    <string name="clasificaciones">Clasificaciones</string>
+    <string name="logros">Logros</string>
+
+    <string-array name="filtro">
+        <item>Más recientes</item>
+        <item>Más antiguas</item>
+        <item>Más populares</item>
+    </string-array>
+
+    <string-array name="dificultades">
+        <item>Fácil</item>
+        <item>Intermedia</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string name="tag1">Series</string>
+    <string name="tag2">Deportes</string>
+    <string name="tag3">Historia</string>
+    <string name="tag4">Informática</string>
+    <string name="tag5">Cine</string>
+    <string name="tag6">Literatura</string>
+    <string name="tag7">Geografía</string>
+    <string name="tag8">Ciencias</string>
+    <string name="tag9">Música</string>
+    <string name="tag10">Videojuegos</string>
+    <string-array name="tags">
+        <item>Series</item>
+        <item>Deportes</item>
+        <item>Historia</item>
+        <item>Informática</item>
+        <item>Cine</item>
+        <item>Literatura</item>
+        <item>Geografía</item>
+        <item>Ciencias</item>
+        <item>Música</item>
+        <item>Videojuegos</item>
+    </string-array>
+    <string-array name="tags2">
+        <item>Series</item>
+        <item>Deportes</item>
+        <item>Historia</item>
+        <item>Informática</item>
+        <item>Cine</item>
+        <item>Literatura</item>
+        <item>Geografía</item>
+        <item>Ciencias</item>
+        <item>Música</item>
+        <item>Videojuegos</item>
+        <item>Cualquiera</item>
+    </string-array>
+
+</resources>

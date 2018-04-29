@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dam.ies1.questionit.juego.JuegoActivity">
+
+    <item
+        android:id="@+id/MIPerfil"
+        android:orderInCategory="100"
+        android:title="@string/perfil"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/perfil"/>
+    <item
+        android:id="@+id/MIClasificaciones"
+        android:orderInCategory="100"
+        android:title="@string/clasificaciones"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/MILogros"
+        android:orderInCategory="100"
+        android:title="@string/logros"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/MICerrarSesion"
+        android:orderInCategory="100"
+        android:title="@string/cerrarSesion"
+        app:showAsAction="never" />
+
+</menu>

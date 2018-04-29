@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dam.ies1.questionit.preguntas.PreguntasActivity">
+
+    <item
+        android:id="@+id/MIConsultarPerfil"
+        android:orderInCategory="100"
+        android:title="@string/consultarPerfil"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/MIReportarPregunta"
+        android:orderInCategory="100"
+        android:title="@string/reportarPregunta"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+</menu>

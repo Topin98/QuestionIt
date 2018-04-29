@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">86084105157</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.dam.ies1.questionit</string>
+    <!-- achievement Responde preguntas (Bronce) -->
+    <string name="achievement_responde_preguntas_bronce" translatable="false">CgkIxeeM2MACEAIQBg</string>
+    <!-- achievement Responde preguntas (Plata) -->
+    <string name="achievement_responde_preguntas_plata" translatable="false">CgkIxeeM2MACEAIQBw</string>
+    <!-- achievement Responde preguntas (Oro) -->
+    <string name="achievement_responde_preguntas_oro" translatable="false">CgkIxeeM2MACEAIQCA</string>
+    <!-- achievement Completa el desafío (Bronce) -->
+    <string name="achievement_completa_el_desafo_bronce" translatable="false">CgkIxeeM2MACEAIQCQ</string>
+    <!-- achievement Completa el desafío (Plata) -->
+    <string name="achievement_completa_el_desafo_plata" translatable="false">CgkIxeeM2MACEAIQCg</string>
+    <!-- achievement Completa el desafío (Oro) -->
+    <string name="achievement_completa_el_desafo_oro" translatable="false">CgkIxeeM2MACEAIQCw</string>
+    <!-- achievement Genio del PvP (Bronce) -->
+    <string name="achievement_genio_del_pvp_bronce" translatable="false">CgkIxeeM2MACEAIQDA</string>
+    <!-- achievement Genio del PvP (Plata) -->
+    <string name="achievement_genio_del_pvp_plata" translatable="false">CgkIxeeM2MACEAIQDQ</string>
+    <!-- achievement Genio del PvP (Oro) -->
+    <string name="achievement_genio_del_pvp_oro" translatable="false">CgkIxeeM2MACEAIQDg</string>
+    <!-- achievement Participa en la comunidad -->
+    <string name="achievement_participa_en_la_comunidad" translatable="false">CgkIxeeM2MACEAIQDw</string>
+    <!-- leaderboard Puntuación -->
+    <string name="leaderboard_puntuacin" translatable="false">CgkIxeeM2MACEAIQBA</string>
+    <!-- leaderboard Victorias -->
+    <string name="leaderboard_victorias" translatable="false">CgkIxeeM2MACEAIQAw</string>
+    <!-- leaderboard Record Desafío -->
+    <string name="leaderboard_record_desafo" translatable="false">CgkIxeeM2MACEAIQAg</string>
+    <!-- leaderboard Popularidad -->
+    <string name="leaderboard_popularidad" translatable="false">CgkIxeeM2MACEAIQBQ</string>
+</resources>

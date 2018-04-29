@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="140dp"
+        android:height="50dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="50dp"></corners>
+            <solid android:color="@color/accent"/>
+        </shape>
+    </item>
+    <item
+        android:width="30dp"
+        android:height="30dp"
+        android:drawable="@drawable/trofeo"
+        android:gravity="center_vertical"
+        android:left="105dp">
+    </item>
+</layer-list>
