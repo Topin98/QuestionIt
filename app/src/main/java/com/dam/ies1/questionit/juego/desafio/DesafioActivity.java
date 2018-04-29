@@ -261,7 +261,7 @@ public class DesafioActivity extends AppCompatActivity implements CargarPregunta
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
 
         //actualizamos la clasificacion de la play store
-        Games.getLeaderboardsClient(this, account).submitScore(getString(R.string.leaderboard_record_desafo), respCorrectas);
+        Games.getLeaderboardsClient(this, account).submitScoreImmediate(getString(R.string.leaderboard_record_desafo), respCorrectas);
 
         //comprobamos si desbloqueo algun logro
         if (respCorrectas >= 5){

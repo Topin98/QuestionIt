@@ -246,9 +246,9 @@ public class PerfilActivity extends AppCompatActivity implements InsertarImagenP
         //actualizamos las clasificaciones de la play store
         //(lo normal seria hacerlo al acabar de contestar una pregunta o al acabar una partida pero como la puntuacion no siempre esta cargada si no que se suma
         // 1 en la base de datos es mucho mas comodo asi)
-        Games.getLeaderboardsClient(this, account).submitScore(getString(R.string.leaderboard_puntuacin), perfil.getPuntuacionTotal());
-        Games.getLeaderboardsClient(this, account).submitScore(getString(R.string.leaderboard_victorias), perfil.getVictorias());
-        Games.getLeaderboardsClient(this, account).submitScore(getString(R.string.leaderboard_popularidad), perfil.getPopularidadTotal());
+        Games.getLeaderboardsClient(this, account).submitScoreImmediate(getString(R.string.leaderboard_puntuacin), perfil.getPuntuacionTotal());
+        Games.getLeaderboardsClient(this, account).submitScoreImmediate(getString(R.string.leaderboard_victorias), perfil.getVictorias());
+        Games.getLeaderboardsClient(this, account).submitScoreImmediate(getString(R.string.leaderboard_popularidad), perfil.getPopularidadTotal());
         //endregion
 
         //region Logros
