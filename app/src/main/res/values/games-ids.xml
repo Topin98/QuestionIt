@@ -29,11 +29,11 @@ Save this file as res/values/games-ids.xml in your project.
     <!-- achievement Participa en la comunidad -->
     <string name="achievement_participa_en_la_comunidad" translatable="false">CgkIxeeM2MACEAIQDw</string>
     <!-- leaderboard Puntuación -->
-    <string name="leaderboard_puntuacin" translatable="false">CgkIxeeM2MACEAIQBA</string>
+    <string name="leaderboard_puntuacin" translatable="false">CgkIxeeM2MACEAIQEQ</string>
     <!-- leaderboard Victorias -->
-    <string name="leaderboard_victorias" translatable="false">CgkIxeeM2MACEAIQAw</string>
+    <string name="leaderboard_victorias" translatable="false">CgkIxeeM2MACEAIQEg</string>
     <!-- leaderboard Record Desafío -->
-    <string name="leaderboard_record_desafo" translatable="false">CgkIxeeM2MACEAIQAg</string>
+    <string name="leaderboard_record_desafo" translatable="false">CgkIxeeM2MACEAIQEw</string>
     <!-- leaderboard Popularidad -->
-    <string name="leaderboard_popularidad" translatable="false">CgkIxeeM2MACEAIQBQ</string>
+    <string name="leaderboard_popularidad" translatable="false">CgkIxeeM2MACEAIQFA</string>
 </resources>
