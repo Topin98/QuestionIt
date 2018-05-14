@@ -173,6 +173,9 @@ public class CrearPreguntaActivity extends AppCompatActivity implements Confirma
         btnPublicar = findViewById(R.id.btnPublicar);
         handler = new Handler();
 
+        //reseteamos el color de los botones con los tags por si en el caso de que antes se marco
+        this.resetearTags();
+
         IVMostrarTitulo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -254,8 +257,6 @@ public class CrearPreguntaActivity extends AppCompatActivity implements Confirma
 
         switch (item.getItemId()){
             case android.R.id.home:
-                //resetamos los tags para que no aparezcan más en verde
-                this.resetearTags();
                 finish();
                 break;
         }
@@ -418,7 +419,7 @@ public class CrearPreguntaActivity extends AppCompatActivity implements Confirma
 
             //el catch se produce si la imagen esta almacenada en la carpeta de "Fotos" de google
         } catch (Exception e){
-            Toast.makeText(this, "Advertencia! Usar imagenes que no estan guardadas en el dispositivo conllevarán a que la pregunta lleve gran cantidad de tiempo en publicarse", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Advertencia! Usar imágenes que no están guardadas en el dispositivo conllevarán a que la pregunta lleve gran cantidad de tiempo en publicarse", Toast.LENGTH_LONG).show();
 
             //ponemos la imagen temporalmente en el ImagenView
             imagenCambiar.setImageURI(selectedImage);
@@ -588,9 +589,6 @@ public class CrearPreguntaActivity extends AppCompatActivity implements Confirma
 
                 Toast.makeText(this, "Se ha publicado la pregunta!", Toast.LENGTH_SHORT).show();
 
-                //resetamos los tags para que no aparezcan más en verde
-                this.resetearTags();
-
                 //desbloqueamos el logro de publicar una pregunta
                 Games.getAchievementsClient(getApplicationContext(), GoogleSignIn.getLastSignedInAccount(this)).unlock(getString(R.string.achievement_participa_en_la_comunidad));
 
@@ -608,9 +606,6 @@ public class CrearPreguntaActivity extends AppCompatActivity implements Confirma
 
     @Override
     public void onBackPressed() {
-
-        //reseteamos los TextView con los tags para que al entrar otra vez en la activity no aparezcan verdes
-        this.resetearTags();
 
         //volvemos para atras
         super.onBackPressed();

@@ -430,7 +430,7 @@ public class PerfilActivity extends AppCompatActivity implements InsertarImagenP
 
             //el catch se produce si la imagen esta almacenada en la carpeta de "Fotos" de google
         } catch (Exception e){
-            Toast.makeText(this, "Advertencia! Usar imagenes que no estan guardadas en el dispositivo conllevarán a que la pregunta lleve gran cantidad de tiempo en publicarse", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Advertencia! Usar imágenes que no están guardadas en el dispositivo pueden tardar en cargar", Toast.LENGTH_LONG).show();
 
             //ponemos la imagen temporalmente en el ImagenView
             IVFotoPerfil.setImageURI(selectedImage);
