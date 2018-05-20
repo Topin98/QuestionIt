@@ -131,7 +131,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
                 //si no es null es que ya esta registrado
                 if (!resultado.equals("null")) {
-                    JSONObject json = new JSONObject(resultado);
 
                     //iniciamos el juego
                     this.iniciarJuego();
